@@ -40,7 +40,7 @@ Every Lightning web component, Aura bundle, Apex class and Visualforce page in y
 <td width="33%" valign="top">
 
 ### 🖱️ One-click connect
-Click the Studio icon on any Salesforce tab and it opens connected to that org, production or sandbox. No OAuth app, no Consumer Key.
+Click the Studio icon on any Salesforce tab and it opens in its own app window, connected to that org. No OAuth app, no Consumer Key.
 
 </td>
 <td width="33%" valign="top">
@@ -85,7 +85,7 @@ The editor behind VS Code, with LWC typings, Salesforce snippets, Apex keywords,
 
 ## 🔌 Connect in one click
 
-Sign in to Salesforce as usual, then **click the Salesforce Studio icon while on a Salesforce tab**: Lightning, Setup, Classic or Visualforce, production or sandbox. Studio opens connected to that org.
+Sign in to Salesforce as usual, then **click the Salesforce Studio icon while on a Salesforce tab**: Lightning, Setup, Classic or Visualforce, production or sandbox. Studio opens in its own full-size window, like a desktop app, connected to that org. Click the icon again to bring it to the front; each org gets its own window.
 
 Not on a Salesforce tab? The home screen lists every org you are signed in to, each with a **Connect** button.
 
