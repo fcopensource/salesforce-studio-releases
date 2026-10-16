@@ -144,6 +144,9 @@ If Salesforce rejects a file, for example with an LWC compile error, the console
 
 ### And more
 
+- **Component menu.** Every component has a ••• menu: **Download as ZIP** (ready to deploy anywhere, with its metadata, a package.xml and your unsaved edits), **Copy name** and **Delete from org** (asks first; in production you type the name).
+- **Quick Open.** <kbd>Ctrl</kbd> + <kbd>P</kbd> jumps to any file by typing part of its name.
+- **Make it yours.** Drag the explorer edge to resize it. In **Settings**, set the font size, word wrap and minimap.
 - **Drafts that survive.** Every edit is kept in your browser, per org, so closing a tab never loses work.
 - **Format document.** <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd> formats JavaScript, HTML, CSS, JSON and XML; Apex gets careful re-indentation.
 - **Console and Problems.** Timestamped activity, red errors, and editor problems that jump to the line.
@@ -155,6 +158,7 @@ If Salesforce rejects a file, for example with an LWC compile error, the console
 | :-- | :-- |
 | <kbd>Ctrl</kbd> + <kbd>S</kbd> | Save the open component to the org |
 | <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd> | Format document |
+| <kbd>Ctrl</kbd> + <kbd>P</kbd> | Go to any file |
 | <kbd>Ctrl</kbd> + <kbd>Space</kbd> | Suggestions |
 | <kbd>Ctrl</kbd> + <kbd>Z</kbd> | Undo, including a Discard or a reload |
 | <kbd>Esc</kbd> | Close a menu, the targets list or the New dialog |
@@ -176,7 +180,7 @@ Studio runs in your browser and talks only to your Salesforce org, and to an AI 
 ## 🧭 Limits
 
 - One org at a time; no cross-org promotion or Git integration yet.
-- Lightning Types are not shown yet, and components cannot be deleted from the org.
+- Lightning Types are not shown yet.
 - Apex compile errors come from your org when you save.
 - An Apex change in production runs all local tests, as Salesforce requires.
 - Your user needs API access and permission to modify metadata. See [Connect your org](docs/CONNECT-YOUR-ORG.md#3-check-your-users-access).
